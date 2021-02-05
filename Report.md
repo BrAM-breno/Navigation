@@ -1,5 +1,47 @@
+# Project 1: Collecting bananas with DQN agent
+
+In this project, to solve the problem of collect yellow bananas and no collect blue bananas by an agent on Unity's environment, it was used a  Deep Q-Network (DQN) agent. Below are presented the learning algorithm, s few details of the agent, and results obtained.
+
 # Learning Algorithm
 
-# Plot of Rewards
+It was used DQN algorithm with experience replay, to train the agent to collect bananas. A Deep Neural Network was used as the approximation function of action-value function Q(s,a).
 
-# Ideas for Future Work
+The objective of the learning algorithm is to find the best parameters for the approximation function chosen to approximate the action-value function:
+
+figura da função
+<p align="center">
+  <img src="q_sa_001.png" alt="drawing" width="700"/>
+<p/>
+
+Experience replay is a technique to improve DQN performance. In short it consists of storing current and a step forward states, actions, and rewards in a buffer and selecting them at random to update the target function. A figure is shown below to ilustrate:
+
+figura experience replay
+<p align="center">
+  <img src="experience_replay_001.png" alt="drawing" width="700"/>
+<p/>
+
+<p align="center">
+  https://julien-vitay.net/deeprl/Valuebased.html
+<p/>
+
+Below is presented a pseucode of DQN with experience replay:
+
+figura experience replay algorithm
+<p align="center">
+  <img src="algorithm_experience_replay.png" alt="drawing" width="700"/>
+<p/>
+<p align="center">
+  https://regressionist.github.io/2019-05-13-Reinforcement-Learning/
+<p/>
+
+In order to choose parameters minimaly suitable, they were tested neural networks with 3 to 9 layers. Also some learning reates's values between 1E-4 and 9E-4 and 1E-4 and 9E-4 were tested. After tests, it has been pick a 6 layers neural network and learning rate of 6E-4. This configurtion solve the environment in a smaller number of episodes in the tests. Other DNN's parameters and their values are in **navigation_model.py** file.
+
+> **navigation_model.py** and **navigation_dqn_agent.py** are adaptation from codes provided by Deep Reinforcement Learning Nanodegree - Udacity.
+
+All deep neural network layers are dense and their activation functions are RELU. 
+
+# Results
+
+# Future Work
+
+# References
