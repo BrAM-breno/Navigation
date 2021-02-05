@@ -1,13 +1,12 @@
 # Project 1: Collecting bananas with DQN agent
 
-In this project, to solve the problem of collect yellow bananas and no collect blue bananas by an agent on Unity's environment, it was used a  Deep Q-Network (DQN) agent. Below are presented the learning algorithm, s few details of the agent, and results obtained.
+In this project, to solve the problem of collect yellow bananas and no collect blue bananas by an agent on Unity's environment, it was used a  Deep Q-Network (DQN) agent. Below are presented the learning algorithm, a few details of the agent, and results obtained.
 
 # Learning Algorithm
 
 It was used DQN algorithm with experience replay, to train the agent to collect bananas. A Deep Neural Network was used as the approximation function of action-value function Q(s,a).
 
 The objective of the learning algorithm is to find the best parameters for the approximation function chosen to approximate the action-value function:
-
 
 <p align="center">
   <img src="q_sa_001.png" alt="drawing" width="500"/>
@@ -24,6 +23,7 @@ Experience replay is a technique to improve DQN performance. In short it consist
 <p/>
 
 Below is presented a pseucode of DQN with experience replay:
+
 
 <p align="center">
   <img src="algorithm_experience_replay.png" alt="drawing" width="700"/>
