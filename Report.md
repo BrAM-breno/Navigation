@@ -15,7 +15,7 @@ The objective of the learning algorithm is to find the best parameters for the a
 Experience replay is a technique to improve DQN performance. In short it consists of storing current and a step forward states, actions, and rewards in a buffer and selecting them at random to update the target function. A figure is shown below to ilustrate:
 
 <p align="center">
-  <img src="experience_replay_001.png" alt="drawing" width="500"/>
+  <img src="experience_replay_001.png" alt="drawing" width="450"/>
 <p/>
 
 <p align="center">
@@ -26,7 +26,7 @@ Below is presented a pseucode of DQN with experience replay:
 
 
 <p align="center">
-  <img src="algorithm_experience_replay.png" alt="drawing" width="700"/>
+  <img src="algorithm_experience_replay.png" alt="drawing" width="750"/>
 <p/>
 <p align="center">
   https://regressionist.github.io/2019-05-13-Reinforcement-Learning/
