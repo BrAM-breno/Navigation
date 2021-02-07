@@ -22,6 +22,8 @@ Experience replay is a technique to improve DQN performance. In short it consist
   https://julien-vitay.net/deeprl/Valuebased.html
 <p/>
 
+The learning algorithm used is implemented with Fixed-target technique, which implements two identical artificial neural networks. One of the networks (target network) does not have its weights updated in every iteration, this is done with the aim of reducing instability during training.
+
 Below is presented a pseucode of DQN with experience replay:
 
 
@@ -40,6 +42,11 @@ All deep neural network layers are dense and their activation functions are RELU
 
 # Results
 
+
+
 # Future Work
 
-# References
+Some ideas to improve agent peformance are presented below:
+
+- Melhorar o processo de pesquisa por melhores parâmetros e estender esta pesquisa para outros parâmetros e hiperparâmetros do algoritmo.
+- Implement a double DQN, a dueling DQN, and prioritized experience replay.
