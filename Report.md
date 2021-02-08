@@ -34,7 +34,7 @@ Below is presented a pseucode of DQN with experience replay:
   https://regressionist.github.io/2019-05-13-Reinforcement-Learning/
 <p/>
 
-In order to choose parameters minimaly suitable, they were tested neural networks with 3 to 9 layers. Also some learning reates's values between 1E-4 and 9E-4 and 1E-4 and 9E-4 were tested. After tests, it has been pick a 6 layers neural network and learning rate of 6E-4. This configurtion solve the environment in a smaller number of episodes in the tests. Other DNN's parameters and their values are in **navigation_model.py** file.
+In order to choose parameters minimaly suitable, they were tested neural networks with 3 to 9 layers. Also some learning reates's values between 1E-4 and 9E-4 and 1E-4 and 9E-4 were tested. After tests, it has been pick a 6 layers neural network and learning rate of 6E-4. This configurtion has solved the environment in a smaller number of episodes in the tests. Other DNN's parameters and their values are in **navigation_model.py** file.
 
 > **navigation_model.py** and **navigation_dqn_agent.py** are adaptation from codes provided by Deep Reinforcement Learning Nanodegree - Udacity.
 
@@ -48,5 +48,5 @@ All deep neural network layers are dense and their activation functions are RELU
 
 Some ideas to improve agent peformance are presented below:
 
-- Melhorar o processo de pesquisa por melhores parâmetros e estender esta pesquisa para outros parâmetros e hiperparâmetros do algoritmo.
+- Improve the search process for better parameters and extend this search to other parameters and hyperparameters of the algorithm.
 - Implement a double DQN, a dueling DQN, and prioritized experience replay.
