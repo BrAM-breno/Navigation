@@ -38,7 +38,7 @@ In order to choose parameters minimaly suitable, they were tested neural network
 
 > **navigation_model.py** and **navigation_dqn_agent.py** are adaptation from codes provided by Deep Reinforcement Learning Nanodegree - Udacity.
 
-All deep neural network layers are dense and their activation functions are RELU. 
+All hidden layers are dense and their activation functions are RELU. 
 
 # Results
 
