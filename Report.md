@@ -28,7 +28,7 @@ Below is presented a pseucode of DQN with experience replay:
 
 
 <p align="center">
-  <img src="algorithm_experience_replay.png" alt="drawing" width="750"/>
+  <img src="algorithm_experience_replay.png" alt="drawing" width="450"/>
 <p/>
 <p align="center">
   https://regressionist.github.io/2019-05-13-Reinforcement-Learning/
