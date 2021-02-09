@@ -42,7 +42,15 @@ All hidden layers are dense and their activation functions are RELU.
 
 # Results
 
+O agente utilizado foi treinado em dois mil episódios, sendo que cada episódio possui t_max = 1000. O resultado obtido no processo de treinamento é mostrado na próxima figura, na qual a linha vermelha representa a médiadas recompensas nos últimos 100 episódios.
 
+<p align="center">
+  <img src="result_plot.png" alt="drawing" width="750"/>
+<p/>
+
+Durante o treinamento, o agente conseguiu resolver o ambiente a primeira vez com 430 episódios.
+
+Com o agente já treinado, foi realizada 30 tentativas para resolução do ambiente, nas quais o agente comseguiu resolver o ambiente com média de 1.97 episodes e recompensa média de 16.1.
 
 # Future Work
 
