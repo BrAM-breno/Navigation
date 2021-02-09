@@ -50,7 +50,7 @@ O agente utilizado foi treinado em dois mil episódios, sendo que cada episódio
 
 Durante o treinamento, o agente conseguiu resolver o ambiente a primeira vez com 430 episódios.
 
-Com o agente já treinado, foi realizada 30 tentativas para resolução do ambiente, nas quais o agente comseguiu resolver o ambiente com média de 1.97 episodes e recompensa média de 16.1.
+Com o agente já treinado, foi realizada 30 tentativas para resolução do ambiente, nas quais o agente comseguiu resolver o ambiente com média de 1.97 episódios e recompensa média de 16.1. Em muitas repetições o ambiente foi resolvido em apenas 1 episódio e o número máximo de episódios para resolver o ambiente foi 12.
 
 # Future Work
 
