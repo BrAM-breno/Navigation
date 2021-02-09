@@ -28,7 +28,7 @@ Below is presented a pseucode of DQN with experience replay:
 
 
 <p align="center">
-  <img src="algorithm_experience_replay.png" alt="drawing" width="450"/>
+  <img src="algorithm_experience_replay.png" alt="drawing" width="750"/>
 <p/>
 <p align="center">
   https://regressionist.github.io/2019-05-13-Reinforcement-Learning/
@@ -45,7 +45,7 @@ All hidden layers are dense and their activation functions are RELU.
 O agente utilizado foi treinado em dois mil episódios, sendo que cada episódio possui t_max = 1000. O resultado obtido no processo de treinamento é mostrado na próxima figura, na qual a linha vermelha representa a médiadas recompensas nos últimos 100 episódios.
 
 <p align="center">
-  <img src="result_plot.png" alt="drawing" width="750"/>
+  <img src="result_plot.png" alt="drawing" width="450"/>
 <p/>
 
 Durante o treinamento, o agente conseguiu resolver o ambiente a primeira vez com 430 episódios.
