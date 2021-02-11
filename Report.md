@@ -42,15 +42,15 @@ All hidden layers are dense and their activation functions are RELU.
 
 # Results
 
-O agente utilizado foi treinado em dois mil episódios, sendo que cada episódio possui t_max = 1000. O resultado obtido no processo de treinamento é mostrado na próxima figura, na qual a linha vermelha representa a médiadas recompensas nos últimos 100 episódios.
+The agent used was trained in two thousand episodes, with each episode having t_max = 1000. The result obtained in the training process is shown in the next figure, in which the red line represents the average rewards in the last 100 episodes.
 
 <p align="center">
   <img src="result_plot.png" alt="drawing" width="450"/>
 <p/>
 
-Durante o treinamento, o agente conseguiu resolver o ambiente a primeira vez com 430 episódios.
+During training, the agent solved the environment the first time with 430 episodes.
 
-Com o agente já treinado, foi realizada 30 tentativas para resolução do ambiente, nas quais o agente comseguiu resolver o ambiente com média de 1.97 episódios e recompensa média de 16.1. Em muitas repetições o ambiente foi resolvido em apenas 1 episódio e o número máximo de episódios para resolver o ambiente foi 12.
+With the agent already trained, 30 attempts were made to resolve the environment, which the agent solved the environment with an average of 1.97 episodes and an average reward of 16.1. Many repetitions the environment was solved with just 1 episode and the maximum number of episodes to solve the environment was 12.
 
 # Future Work
 
