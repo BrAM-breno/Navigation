@@ -9,6 +9,9 @@ An agent in action is presented below:
 <p align="center">
   <img src="banana.gif" alt="drawing" width="700"/>
 <p/>
+<p align="center">
+  Credits: Image taken from the content of Deep Reinforcement Learning Nanodegree - Udacity
+<p/>
 
 ### 1.1 State Space
 
